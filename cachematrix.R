@@ -1,4 +1,5 @@
-# The functions makeCacheMatrix and cacheSolve are used to cache the potentially time-consuming computation of calculating the inverse of a matrix.
+# The functions makeCacheMatrix and cacheSolve are used to cache the potentially
+# time-consuming computation of calculating the inverse of a matrix.
 # makeCacheMatrix creates a special "matrix" object that can cache its inverse.
 # cacheSolve computes the inverse of the special "matrix" returned by makeCacheMatrix.
 # If the inverse has already been calculated (and the matrix has not changed),
